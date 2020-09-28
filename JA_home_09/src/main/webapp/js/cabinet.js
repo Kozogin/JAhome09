@@ -36,4 +36,26 @@ $.get("magazines", function(data) {
 	}
 	
 	$('#magazineCards').html(cardsContext);
+}).done(function(){
+	
+})
+
+//user-role
+var userRole = null;
+$.get("user-role", function(data) {	
+		
+	if(data !== ''){
+		userRole = data;
+	}
+	
+}).done(function(){
+	
+	if(userRole === 'ADMINISTRATOR'){
+		$('a.card-link').hide();
+		/*$('li.bucketAdminNot').hide();*/
+	} else{
+		/*$('li.bucketUserNot').hide();*/
+	}
+	
 });
+

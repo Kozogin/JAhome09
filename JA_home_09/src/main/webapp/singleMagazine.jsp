@@ -38,6 +38,8 @@
 
 		</div>
 	</div>
+	
+	<br><br><br><br><br>
 
 	<div class="modal fade" id="buyMagazineModal" tabindex="-1"
 		role="dialog" aria-labelledby="exampleModalLongTitle"
