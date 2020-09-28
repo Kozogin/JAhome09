@@ -125,6 +125,7 @@
 	<script
 		src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+	<script src="js/header.js"></script>
 	<script src="js/serverCalls.js"></script>
 </body>
 </html>
