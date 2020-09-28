@@ -4,6 +4,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+
+<link
+	href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="css/cabinet.css">
+<link rel="stylesheet" href="css/header.css">
+
 <title>Cabinet</title>
 </head>
 <body>

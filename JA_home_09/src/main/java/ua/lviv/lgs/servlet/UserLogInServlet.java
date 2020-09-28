@@ -40,7 +40,7 @@ public class UserLogInServlet extends HttpServlet {
 		System.out.println("dopost");
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");	
-		String userId = request.getParameter("id");
+		//String userId = request.getParameter("id");
 		
 		 
 				
@@ -68,7 +68,9 @@ public class UserLogInServlet extends HttpServlet {
 				UserLogin userLogin = new UserLogin();
 				userLogin.destinationUrl = "cabinet.jsp";
 				userLogin.userEmail = user.getEmail();
-				userLogin.userId = user.getId();
+				UserLogin.userId = user.getId();
+				
+				System.out.println(UserLogin.userId);
 				
 				String json = new Gson().toJson(userLogin);
 			    response.setContentType("application/json");

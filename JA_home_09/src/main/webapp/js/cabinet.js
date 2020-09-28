@@ -11,8 +11,8 @@ $.get("magazines", function(data) {
 	jQuery.each(magazines, function(i, value){
 		
 		cardsContext +=
-			'<div class="col">' +
-			'<div class="card">' +
+			'<div class="col cabinet-col">' +
+			'<div class="card cabinet-card">' +
 			'<div class="card-body">' + 		
 			'<h5 class="card-title">' + value.name + '</h5>' +		
 			'<h6 class="card-subtitle mb-2 text-muted">' + value.price +'</h6>'+
@@ -31,7 +31,7 @@ $.get("magazines", function(data) {
 	
 	
 	
-	for(i = 1;i < 27; i++){
+	for(i = 1;i < 4; i++){
 		cardsContext += "<br>"
 	}
 	
